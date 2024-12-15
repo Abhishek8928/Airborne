@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box !important;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@font-face {
+  font-family: "gravity";
+  src: url("/font/_ABCGravity-Extended.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "sharp";
+  src: url("./font/SharpGroteskBook.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "space";
+  src: url("./font/SpaceGrotesk-Regular.woff2") format("woff2");
+}
+
+.fixed-con:hover > img {
+  transform: scale(1);
+}
+
+.marquee-wrapper > div {
+  animation: marquee 50s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-500%);
+  }
+}

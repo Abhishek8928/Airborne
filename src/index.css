@@ -19,12 +19,12 @@
 
 @font-face {
   font-family: "sharp";
-  src: url("./font/SharpGroteskBook.woff2") format("woff2");
+  src: url("/font/SharpGroteskBook.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "space";
-  src: url("./font/SpaceGrotesk-Regular.woff2") format("woff2");
+  src: url("/font/SpaceGrotesk-Regular.woff2") format("woff2");
 }
 
 .fixed-con:hover > img {

@@ -8,8 +8,8 @@ import ProjectListWrapper from './ProjectListWrapper';
 const ProjectShowecase = () => {
     const canvasRef = useRivFile(THIRD_RIV_FILE_CONFIG);
   return (
-    <div className="w-full relative py-[6rem] ">
-    <div className="sticky top-[8rem]  left-0 w-full  overflow-x-hidden">
+    <div className="w-full px-[1.5vw] relative py-[6rem] ">
+    <div className="sticky top-[12rem]  left-0 w-full  overflow-x-hidden">
         <canvas  style={{width: "100%" , height:"100%"}} ref={canvasRef}></canvas>
 
         <div className="content-wrapper">

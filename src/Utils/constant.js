@@ -78,22 +78,22 @@ export const PROJECT_LIST = [
     },{
         imgUrl:"https://cdn.prod.website-files.com/66f399f71622a63730b572f0/6712555e1cd20cf8f4170fb6_Thumb.png",
         title:"CIPHR",
-        position: "top-[20%] right-[4%]"
+        position: "top-[10%] right-[4%]"
     },
     {
         imgUrl:"https://cdn.prod.website-files.com/66f399f71622a63730b572f0/671254febe374badf79e0d15_Thumb.jpg",
         title:"AKASH",
-        position: "top-[30%] left-[30%]"
+        position: "top-[25%] left-[30%]"
     },
     {
         imgUrl:"https://cdn.prod.website-files.com/66f399f71622a63730b572f0/670d15e009a5ea3750acb11b_1%20-%20Image-p-2000.jpg",
         title:"FTA",
-        position: "top-[60%] right-[0%]"
+        position: "top-[45%] right-[0%]"
     },
     {
         imgUrl:"https://cdn.prod.website-files.com/66f399f71622a63730b572f0/671254c2e61cbe86fb7df9cf_Thumb.png",
         title:"PROPSTORE",
-        position: "top-[80%] left-[10%]"
+        position: "top-[60%] left-[10%]"
     }
 ]
 
